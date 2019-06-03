@@ -11,7 +11,11 @@ Predict an outcome y from a set of possible outcomes Y, on the basis of some obs
 
 Why not estimate the underlying probability P(Y|X) distribution first? This is harder than prediction. The goals are in terms of unknown quantities related to unknown P and we have to use empirical data instead.  
 
+* **Prior Knowledge**
 
+There are 2 ways to introduce the domain knowledge about the problem so that we are better than random chance and converge fast with lesser samples than infinity.
+  * Assumptions on the distribution P (e.g. margin, smoothness of the regression function, etc) 
+  * Redefine the goal to perform as well as a reference set F of predictors where F encapsulates our inductive bias.
 
 
 
